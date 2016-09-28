@@ -1,0 +1,26 @@
+{
+  "name" : "sharkzt/helpersbundle",
+  "description" : "Helpers bundle, that extends symfony validator, html purifier classes for easy usage",
+  "keywords": ["framework", "helper", "validation", "purification"],
+  "version" : "0.0.1",
+  "type" : "symfony-bundle",
+  "homepage": "https://github.com/Sharkzt/HelpersBundle",
+  "license" : "MIT",
+  "authors" : [{
+    "name" : "Alexander Pysarchuk",
+    "email" : "then.bemyguest@gmail.com"
+  }],
+  "require" : {
+    "php": ">=7.0.0",
+    "symfony/symfony": ">=3.0",
+    "ezyang/htmlpurifier": ">=4.8"
+  },
+  "autoload" : {
+    "psr-4" : { "Sharkzt\\HelpersBundle\\" : "" }
+  },
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "0.0.x-dev"
+    }
+  }
+}
