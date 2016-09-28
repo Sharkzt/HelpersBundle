@@ -24,11 +24,11 @@ Usage Examples
 
 // Feel free to use as service like $validationHelper = $this->get('sharkzt_helpers.validation_helper');
 $id = 111;
-$email = test@mail;
+$email = "test@mail";
 $validationHelper = new ValidationHelper(new ErrorHelper());
 $validationHelper->setParameter([$id, $validationHelper->integer])
-                                ->setParameter([$id, new Choice([1, 2, 3])])
-                                ->setParameter([$email, new Email()]);
+                 ->setParameter([$id, new Choice([1, 2, 3])])
+                 ->setParameter([$email, new Email()]);
 if (!$validationHelper->validate()) {
     return $this->view($validationHelper->getResponse());
 }
