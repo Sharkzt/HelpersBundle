@@ -2,7 +2,7 @@
 
 <phpunit bootstrap="./Tests/bootstrap.php" colors="true">
     <php>
-        <server name="KERNEL_DIR" value="/home/travis/build/Sharkzt/HelpersBundle/" />
+        <server name="KERNEL_DIR" value="." />
     </php>
 
     <testsuites>
