@@ -5,6 +5,7 @@ SharztHelpersBundle
 extensively unit tested!
 
 [![Build Status](https://travis-ci.org/Sharkzt/HelpersBundle.svg?branch=master)](https://travis-ci.org/Sharkzt/HelpersBundle)
+[![Coverage Status](https://coveralls.io/repos/github/Sharkzt/HelpersBundle/badge.svg)](https://coveralls.io/github/Sharkzt/HelpersBundle)
 
 Installation
 ------------
