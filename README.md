@@ -10,7 +10,7 @@ extensively unit tested!
 Installation
 ------------
 
-The recommended way to install Negotiation is through
+The recommended way to install bundle is through
 [Composer](http://getcomposer.org/):
 
 ```bash
