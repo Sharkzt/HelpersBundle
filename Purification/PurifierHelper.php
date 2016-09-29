@@ -1,9 +1,4 @@
 <?php
-/**
- * Created by shark
- * Date: 9/28/16
- * Time: 12:06 PM
- */
 
 namespace Sharkzt\HelpersBundle\Purification;
 
@@ -16,13 +11,6 @@ use HTMLPurifier;
  */
 class PurifierHelper
 {
-    /**
-     * PurifierHelper constructor.
-     */
-    public function __construct()
-    {
-    }
-
     /**
      * @param string $encoding
      * @param string $docType

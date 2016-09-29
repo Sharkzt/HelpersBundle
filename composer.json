@@ -2,7 +2,7 @@
   "name" : "sharkzt/helpersbundle",
   "description" : "Helpers bundle, that extends symfony validator, html purifier classes for easy usage",
   "keywords": ["framework", "helper", "validation", "purification"],
-  "version" : "0.0.1",
+  "version" : "0.2.0",
   "type" : "symfony-bundle",
   "homepage": "https://github.com/Sharkzt/HelpersBundle",
   "license" : "MIT",
@@ -20,7 +20,7 @@
   },
   "extra" : {
     "branch-alias" : {
-      "dev-master" : "0.0.x-dev"
+      "dev-master" : "0.2.x-dev"
     }
   }
 }

@@ -47,11 +47,11 @@ class ValidationHelper
     /**
      * @var array
      */
-    private $errors;
+    public $errors;
     /**
      * @var array
      */
-    private $errorsArray;
+    public $errorsArray;
 
     /**
      * ValidationHelper constructor.
