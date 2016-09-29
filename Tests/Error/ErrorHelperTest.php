@@ -3,9 +3,8 @@
 namespace Sharkzt\HelpersBundle\Tests\Error;
 
 use Sharkzt\HelpersBundle\Error\ErrorHelper;
-use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 
-class ErrorHelperTest extends KernelTestCase
+class ErrorHelperTest extends \PHPUnit_Framework_TestCase
 {
 
     /**

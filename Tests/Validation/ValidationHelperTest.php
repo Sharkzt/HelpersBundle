@@ -4,14 +4,13 @@ namespace Sharkzt\HelpersBundle\Tests\Validation;
 
 use Sharkzt\HelpersBundle\Error\ErrorHelper;
 use Sharkzt\HelpersBundle\Validation\ValidationHelper;
-use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 use Symfony\Component\Validator\Constraints\Type;
 
 /**
  * Class ValidationHelperTest
  * @package Sharkzt\HelpersBundle\Tests\Validation
  */
-class ValidationHelperTest extends KernelTestCase
+class ValidationHelperTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @var null
@@ -23,14 +22,10 @@ class ValidationHelperTest extends KernelTestCase
     public $type;
 
     /**
-     * ValidationHelperTest constructor.
-     * @param null $name
-     * @param array $data
-     * @param string $dataName
+     *
      */
     public function setUp()
     {
-        self::bootKernel();
         $this->errorHelper = null;
         $this->type = null;
     }

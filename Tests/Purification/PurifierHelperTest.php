@@ -3,13 +3,12 @@
 namespace Sharkzt\HelpersBundle\Tests\Purification;
 
 use Sharkzt\HelpersBundle\Purification\PurifierHelper;
-use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 
 /**
  * Class PurifierHelperTest
  * @package Sharkzt\HelpersBundle\Tests\Purification
  */
-class PurifierHelperTest extends KernelTestCase
+class PurifierHelperTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @covers PurifierHelper::initialize()
