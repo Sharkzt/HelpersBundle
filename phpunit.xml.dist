@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<phpunit bootstrap="./Tests" colors="true">
+<phpunit bootstrap="./Tests/bootstrap.php" colors="true">
 
     <testsuites>
         <testsuite name="SharkztHelpers test suite">
-            <directory suffix=".php">./Tests</directory>
+            <directory suffix="Test.php">./Tests</directory>
         </testsuite>
     </testsuites>
 
@@ -12,6 +12,7 @@
         <whitelist>
             <directory>./</directory>
             <exclude>
+                <directory>./Resources</directory>
                 <directory>./Tests</directory>
                 <directory>./vendor</directory>
             </exclude>
