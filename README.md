@@ -29,6 +29,7 @@ $validationHelper = new ValidationHelper(new ErrorHelper());
 $validationHelper->setParameter([$id, $validationHelper->integer])
                  ->setParameter([$id, new Choice([1, 2, 3])])
                  ->setParameter([$email, new Email()]);
+                 
 if (!$validationHelper->validate()) {
     return $this->view($validationHelper->getResponse());
 }
@@ -39,10 +40,12 @@ The `ValidationHelper` returns an array of errors if validation fails.
 ### Purification
 
 ``` php
-//Set up your service and $purifierHelper = $this->get('sharkzt_helpers.purifier_helper');
-$purifierHelper = PurifierHelper();
+
+//Set up your service $purifierHelper = $this->get('sharkzt_helpers.purifier_helper');
+$purifierHelper = new PurifierHelper();
 $purifier = $purifierHelper->initialize();
 $xssCode = "<script>alert('Xss');</script>Hello world!"
+
 //Purify your variable, to avoid any html code in
 $pureString = $purifier->purify($xssCode);
 
