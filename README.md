@@ -59,5 +59,5 @@ The `$pureString` returns `Hello world!`.
 License
 -------
 
-Negotiation is released under the MIT License. See the bundled LICENSE file for
+HelpersBundle is released under the MIT License. See the bundled LICENSE file for
 details.
