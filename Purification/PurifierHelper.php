@@ -23,6 +23,7 @@ class PurifierHelper
         $config->set('Core.Encoding', $encoding);
         $config->set('HTML.Doctype', $docType);
         $config->set('HTML.Allowed', $html);
+
         return new HTMLPurifier($config);
     }
 }

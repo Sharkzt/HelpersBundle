@@ -3,7 +3,9 @@ services:
         class: Sharkzt\HelpersBundle\Validation\ValidationHelper
         arguments:
             - '@sharkzt_helpers.error_helper'
+
     sharkzt_helpers.error_helper:
         class: Sharkzt\HelpersBundle\Error\ErrorHelper
+
     sharkzt_helpers.purifier_helper:
         class: Sharkzt\HelpersBundle\Purification\PurifierHelper
