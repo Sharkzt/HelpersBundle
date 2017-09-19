@@ -5,6 +5,7 @@ namespace Sharkzt\HelpersBundle\Tests\DependencyInjection;
 use PHPUnit\Framework\TestCase;
 use Sharkzt\HelpersBundle\DependencyInjection\SharkztHelpersExtension;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
+use Symfony\Component\DependencyInjection\Reference;
 
 /**
  * Class SharkztHelpersExtensionTest

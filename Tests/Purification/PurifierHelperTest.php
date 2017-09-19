@@ -30,7 +30,7 @@ class PurifierHelperTest extends TestCase
     }
 
     /**
-     * @covers PurifierHelper::initialize()
+     * @return void
      */
     public function testInitialize_WithParams_ReturnObject()
     {

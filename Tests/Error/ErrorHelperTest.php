@@ -31,7 +31,7 @@ class ErrorHelperTest extends TestCase
     }
 
     /**
-     * @covers ErrorHelper::generateAPIErrorResponse()
+     * @return void
      */
     public function testGetApiResponse_WithStrings_ReturnErrorArray()
     {
