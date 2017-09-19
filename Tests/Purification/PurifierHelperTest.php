@@ -12,7 +12,7 @@ use Sharkzt\HelpersBundle\Purification\PurifierHelper;
 class PurifierHelperTest extends TestCase
 {
     /**
-     * @covers PurifierHelper::initialize()
+     * @return void
      */
     public function testInitialize_WithNoParams_ReturnObject()
     {

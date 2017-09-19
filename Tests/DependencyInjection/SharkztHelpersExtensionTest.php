@@ -4,6 +4,7 @@ namespace Sharkzt\HelpersBundle\Tests\DependencyInjection;
 
 use PHPUnit\Framework\TestCase;
 use Sharkzt\HelpersBundle\DependencyInjection\SharkztHelpersExtension;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 /**
  * Class SharkztHelpersExtensionTest
@@ -30,7 +31,7 @@ class SharkztHelpersExtensionTest extends TestCase
 
 
     /**
-     * @covers SharkztHelpersExtension::load()
+     * @return void
      */
     public function testLoad_WithEmpty_ReturnErrorArray()
     {
@@ -39,7 +40,7 @@ class SharkztHelpersExtensionTest extends TestCase
     }
 
     /**
-     * @covers SharkztHelpersExtension::load()
+     * @return void
      */
     public function testErrorHelperService()
     {
@@ -48,7 +49,7 @@ class SharkztHelpersExtensionTest extends TestCase
     }
 
     /**
-     * @covers SharkztHelpersExtension::load()
+     * @return void
      */
     public function testValidationHelperService()
     {

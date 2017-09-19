@@ -32,7 +32,7 @@ class ValidationHelperTest extends TestCase
     }
 
     /**
-     * @covers ValidationHelper::__construct()
+     * @return void
      */
     public function testClassConstructorErrorHelperParam_WithErrorHelper_ReturnObject()
     {
@@ -50,7 +50,6 @@ class ValidationHelperTest extends TestCase
      * @param string $paramType
      * @param Type $type
      *
-     * @covers ValidationHelper::__construct()
      * @dataProvider getTypesProvider
      */
     public function testClassConstructorTypeParams_WithTypes_ReturnObject(string $paramType, Type $type)
@@ -83,7 +82,7 @@ class ValidationHelperTest extends TestCase
     }
 
     /**
-     * @covers ValidationHelper::validate()
+     * @return void
      */
     public function testValidate_WithInteger_ReturnTrue()
     {
@@ -98,7 +97,7 @@ class ValidationHelperTest extends TestCase
     }
 
     /**
-     * @covers ValidationHelper::validate()
+     * @return void
      */
     public function testValidate_WithString_ReturnFalse()
     {
@@ -113,7 +112,7 @@ class ValidationHelperTest extends TestCase
     }
 
     /**
-     * @covers ValidationHelper::getResponse()
+     * @return void
      */
     public function testGetResponse_WithString_ReturnErrArray()
     {
@@ -138,7 +137,7 @@ class ValidationHelperTest extends TestCase
     }
 
     /**
-     * @covers ValidationHelper::getResponse()
+     * @return void
      */
     public function testGetResponse_WithString_ReturnErrorArray()
     {
@@ -163,7 +162,7 @@ class ValidationHelperTest extends TestCase
     }
 
     /**
-     * @covers ValidationHelper::getResponse()
+     * @return void
      */
     public function testGetResponse_WithInteger_ReturnEmptyArray()
     {
