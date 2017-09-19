@@ -2,9 +2,14 @@
 
 namespace Sharkzt\HelpersBundle\Tests\Error;
 
+use PHPUnit\Framework\TestCase;
 use Sharkzt\HelpersBundle\Error\ErrorHelper;
 
-class ErrorHelperTest extends \PHPUnit_Framework_TestCase
+/**
+ * Class ErrorHelperTest
+ * @package Sharkzt\HelpersBundle\Tests\Error
+ */
+class ErrorHelperTest extends TestCase
 {
 
     /**

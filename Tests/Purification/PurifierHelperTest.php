@@ -2,13 +2,14 @@
 
 namespace Sharkzt\HelpersBundle\Tests\Purification;
 
+use PHPUnit\Framework\TestCase;
 use Sharkzt\HelpersBundle\Purification\PurifierHelper;
 
 /**
  * Class PurifierHelperTest
  * @package Sharkzt\HelpersBundle\Tests\Purification
  */
-class PurifierHelperTest extends \PHPUnit_Framework_TestCase
+class PurifierHelperTest extends TestCase
 {
     /**
      * @covers PurifierHelper::initialize()

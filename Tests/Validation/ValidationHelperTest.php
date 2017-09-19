@@ -2,6 +2,7 @@
 
 namespace Sharkzt\HelpersBundle\Tests\Validation;
 
+use PHPUnit\Framework\TestCase;
 use Sharkzt\HelpersBundle\Error\ErrorHelper;
 use Sharkzt\HelpersBundle\Validation\ValidationHelper;
 use Symfony\Component\Validator\Constraints\Type;
@@ -10,7 +11,7 @@ use Symfony\Component\Validator\Constraints\Type;
  * Class ValidationHelperTest
  * @package Sharkzt\HelpersBundle\Tests\Validation
  */
-class ValidationHelperTest extends \PHPUnit_Framework_TestCase
+class ValidationHelperTest extends TestCase
 {
     /**
      * @var null

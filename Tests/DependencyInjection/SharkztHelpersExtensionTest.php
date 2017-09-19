@@ -2,11 +2,14 @@
 
 namespace Sharkzt\HelpersBundle\Tests\DependencyInjection;
 
+use PHPUnit\Framework\TestCase;
 use Sharkzt\HelpersBundle\DependencyInjection\SharkztHelpersExtension;
-use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Symfony\Component\DependencyInjection\Reference;
 
-class SharkztHelpersExtensionTest extends \PHPUnit_Framework_TestCase
+/**
+ * Class SharkztHelpersExtensionTest
+ * @package Sharkzt\HelpersBundle\Tests\DependencyInjection
+ */
+class SharkztHelpersExtensionTest extends TestCase
 {
     /**
      * @var ContainerBuilder
