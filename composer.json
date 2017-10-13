@@ -1,10 +1,10 @@
 {
-  "name" : "sharkzt/helpersbundle",
+  "name" : "Sharkzt/helpersbundle",
   "description" : "Helpers bundle, that extends symfony validator, html purifier classes for easy usage",
   "keywords": ["framework", "helper", "validation", "purification"],
   "version" : "0.2.0",
   "type" : "symfony-bundle",
-  "homepage": "https://github.com/sharkzt/HelpersBundle",
+  "homepage": "https://github.com/Sharkzt/HelpersBundle",
   "license" : "MIT",
   "authors" : [{
     "name" : "Alexander Pysarchuk",

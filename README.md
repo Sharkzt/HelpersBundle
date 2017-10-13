@@ -4,7 +4,7 @@ SharztHelpersBundle
 **SharztHelpersBundle** is a bundle, that extends symfony validator, html purifier classes for easy usage. It is easy to use, and
 extensively unit tested!
 
-[![Build Status](https://travis-ci.org/sharkzt/HelpersBundle.svg?branch=master)](https://travis-ci.org/sharkzt/HelpersBundle)
+[![Build Status](https://travis-ci.org/Sharkzt/HelpersBundle.svg?branch=master)](https://travis-ci.org/Sharkzt/HelpersBundle)
 [![Coverage Status](https://coveralls.io/repos/github/Sharkzt/HelpersBundle/badge.svg)](https://coveralls.io/github/Sharkzt/HelpersBundle)
 
 Installation
