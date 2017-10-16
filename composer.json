@@ -1,5 +1,5 @@
 {
-  "name" : "Sharkzt/helpersbundle",
+  "name" : "sharkzt/helpersbundle",
   "description" : "Helpers bundle, that extends symfony validator, html purifier classes for easy usage",
   "keywords": ["framework", "helper", "validation", "purification"],
   "version" : "0.2.0",
